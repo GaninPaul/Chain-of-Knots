@@ -305,6 +305,7 @@ getRotationEuler(const Vector2D& angles, const Vector2D& origin, bool degs, bool
 template<typename T>
 inline const Vector2D<T> Vector2D<T>::
 getRotationArbAxis(const Vector2D& axis, const T& amount, const Vector2D& origin, bool degs, bool ccw) const
+//todo vector2d   
 {
     T cos_theta, sin_theta;
 
